@@ -1,0 +1,254 @@
+{
+	"nodes": [
+		{
+			"id": "IT",
+			"color": 3,
+			"radius": 50
+		},
+		{
+			"id": "semiconductor",
+			"color": 5,
+			"radius": 30
+		},
+		{
+			"id": "Semiconductor Manufacturing",
+			"color": 7,
+			"radius": 20
+		},
+		{
+			"id": "semiconductor material",
+			"color": 6,
+			"radius": 20
+		},
+		{
+			"id": "Semiconductor Design",
+			"color": 4,
+			"radius": 20
+		},
+		{
+			"id": "Semiconductor Post-Process",
+			"color": 2,
+			"radius": 20
+		},
+		{
+			"id": "Semiconductor Equipment",
+			"color": 1,
+			"radius": 20
+		},
+		{
+			"id": "display",
+			"color": 8,
+			"radius": 30
+		},
+		{
+			"id": "display part",
+			"color": 9,
+			"radius": 20
+		},
+		{
+			"id": "display material",
+			"color": 10,
+			"radius": 20
+		},
+		{
+			"id": "display equipment",
+			"color": 8,
+			"radius": 20
+		},
+		{
+			"id": "display panel",
+			"color": 7,
+			"radius": 20
+		},
+		{
+			"id": "Software",
+			"color": 10,
+			"radius": 30
+		},
+		{
+			"id": "application software",
+			"color": 9,
+			"radius": 20
+		},
+		{
+			"id": "Artificial Intelligence",
+			"color": 10,
+			"radius": 20
+		},
+		{
+			"id": "system software",
+			"color": 9,
+			"radius": 20
+		},
+		{
+			"id": "IT service",
+			"color": 1,
+			"radius": 30
+		},
+		{
+			"id": "Consulting",
+			"color": -2,
+			"radius": 20
+		},
+		{
+			"id": "solution",
+			"color": 1,
+			"radius": 20
+		},
+		{
+			"id": "platform",
+			"color": 3,
+			"radius": 20
+		},
+		{
+			"id": "infrastructure",
+			"color": 2,
+			"radius": 20
+		},
+		{
+			"id": "hardware",
+			"color": -5,
+			"radius": 30
+		},
+		{
+			"id": "communication equipment",
+			"color": -4,
+			"radius": 20
+		},
+		{
+			"id": "battery",
+			"color": -3,
+			"radius": 20
+		},
+		{
+			"id": "mobile device",
+			"color": -2,
+			"radius": 20
+		},
+		{
+			"id": "Camera",
+			"color": -4,
+			"radius": 20
+		},
+		{
+			"id": "Electrical Appliances",
+			"color": -3,
+			"radius": 20
+		},
+		{
+			"id": "electronics",
+			"color": -2,
+			"radius": 20
+		}
+	],
+	"links": [
+		{
+			"source": "IT",
+			"target": "semiconductor"
+		},
+		{
+			"source": "IT",
+			"target": "display"
+		},
+		{
+			"source": "IT",
+			"target": "Software"
+		},
+		{
+			"source": "IT",
+			"target": "IT service"
+		},
+		{
+			"source": "IT",
+			"target": "hardware"
+		},
+		{
+			"source": "semiconductor",
+			"target": "Semiconductor Manufacturing"
+		},
+		{
+			"source": "semiconductor",
+			"target": "semiconductor material"
+		},
+		{
+			"source": "semiconductor",
+			"target": "Semiconductor Design"
+		},
+		{
+			"source": "semiconductor",
+			"target": "Semiconductor Post-Process"
+		},
+		{
+			"source": "semiconductor",
+			"target": "Semiconductor Equipment"
+		},
+		{
+			"source": "display",
+			"target": "display part"
+		},
+		{
+			"source": "display",
+			"target": "display material"
+		},
+		{
+			"source": "display",
+			"target": "display device"
+		},
+		{
+			"source": "display",
+			"target": "display panel"
+		},
+		{
+			"source": "Software",
+			"target": "application software"
+		},
+		{
+			"source": "Software",
+			"target": "Artificial Intelligence"
+		},
+		{
+			"source": "Software",
+			"target": "system software"
+		},
+		{
+			"source": "IT service",
+			"target": "Consulting"
+		},
+		{
+			"source": "IT service",
+			"target": "solution"
+		},
+		{
+			"source": "IT service",
+			"target": "platform"
+		},
+		{
+			"source": "IT service",
+			"target": "infrastructure"
+		},
+		{
+			"source": "hardware",
+			"target": "communication equipment"
+		},
+		{
+			"source": "hardware",
+			"target": "battery"
+		},
+		{
+			"source": "hardware",
+			"target": "mobile device"
+		},
+		{
+			"source": "hardware",
+			"target": "Camera"
+		},
+		{
+			"source": "hardware",
+			"target": "Electrical Appliances"
+		},
+		{
+			"source": "hardware",
+			"target": "electronics"
+		}
+	]
+}
